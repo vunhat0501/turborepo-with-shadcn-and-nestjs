@@ -2,6 +2,21 @@
 
 This template provides a robust monorepo foundation featuring a **[Next.js](https://nextjs.org/)** frontend, a **[NestJS](https://nestjs.com/)** backend, and a shared **[shadcn/ui](https://ui.shadcn.com/)** component library. It utilizes Turborepo for fast, incremental build pipelines.
 
+- [Turborepo Monorepo Template: Next.js \& NestJS](#turborepo-monorepo-template-nextjs--nestjs)
+  - [Few note before diving in](#few-note-before-diving-in)
+  - [Creating monorepo with shadcn/ui build in](#creating-monorepo-with-shadcnui-build-in)
+  - [🚀 Adding a NestJS App to the Monorepo](#-adding-a-nestjs-app-to-the-monorepo)
+    - [Step 1: Scaffold the NestJS App](#step-1-scaffold-the-nestjs-app)
+    - [Step 2: Configure Shared Packages](#step-2-configure-shared-packages)
+    - [Step 3: Configuring Prettier](#step-3-configuring-prettier)
+  - [🧪 Configuring Jest Testing](#-configuring-jest-testing)
+    - [🚨 The Problem it solves](#-the-problem-it-solves)
+    - [📁 File breakdown](#-file-breakdown)
+  - [🧩 UI Components (shadcn/ui)](#-ui-components-shadcnui)
+    - [Tailwind Configuration](#tailwind-configuration)
+    - [Adding New Components](#adding-new-components)
+    - [Using Components in your Apps](#using-components-in-your-apps)
+
 ## Few note before diving in
 
 This README is almost all about how to set up a turborepo with nestjs and twitching utilities. If you only interested in using this project, you can completely skip this file.
